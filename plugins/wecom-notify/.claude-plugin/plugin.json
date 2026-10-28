@@ -1,11 +1,11 @@
 {
   "name": "wecom-notify",
-  "version": "1.0.0",
-  "description": "Claude Code 回答完成后，推送一条消息到企业微信群机器人（带项目目录和回答摘要）",
+  "version": "1.1.0",
+  "description": "Claude Code 回答完成后，推送一条消息到企业微信或飞书群机器人（带项目目录和回答摘要）",
   "author": {
     "name": "caokang1"
   },
   "homepage": "https://github.com/caokang1/claude-code-wecom-notify",
   "license": "MIT",
-  "keywords": ["wecom", "企业微信", "notification", "hooks"]
+  "keywords": ["wecom", "企业微信", "feishu", "飞书", "lark", "notification", "hooks"]
 }

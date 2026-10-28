@@ -1,13 +1,13 @@
 {
   "name": "claude-code-wecom-notify",
-  "description": "企业微信相关的 Claude Code 插件",
+  "description": "企业微信、飞书相关的 Claude Code 插件",
   "owner": {
     "name": "caokang1"
   },
   "plugins": [
     {
       "name": "wecom-notify",
-      "description": "Claude Code 回答完成后，推送一条消息到企业微信群机器人（带项目目录和回答摘要）",
+      "description": "Claude Code 回答完成后，推送一条消息到企业微信或飞书群机器人（带项目目录和回答摘要）",
       "source": "./plugins/wecom-notify",
       "category": "productivity",
       "homepage": "https://github.com/caokang1/claude-code-wecom-notify"

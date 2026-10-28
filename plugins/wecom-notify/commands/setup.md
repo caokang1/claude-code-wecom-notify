@@ -1,7 +1,7 @@
 ---
-description: "配置企业微信群机器人 Webhook 地址，并发送一条测试消息"
-argument-hint: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=..."
-allowed-tools: ["Bash(python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py:*)"]
+description: "配置企业微信或飞书群机器人 Webhook 地址，并发送一条测试消息"
+argument-hint: "<企业微信或飞书 Webhook 地址> [飞书签名密钥]"
+allowed-tools: ["Bash(python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py\":*)"]
 ---
 
 ```!

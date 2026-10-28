@@ -1,13 +1,24 @@
 {
-  "description": "Claude Code 回答完成后推送到企业微信群机器人",
+  "description": "Claude Code 回答完成后推送到企业微信、飞书群机器人",
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py\" session-start",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
           {
             "type": "command",
             "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py\" notify",
-            "timeout": 10
+            "timeout": 15
           }
         ]
       }

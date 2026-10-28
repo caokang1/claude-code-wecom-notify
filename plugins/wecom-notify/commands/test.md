@@ -1,6 +1,6 @@
 ---
-description: "向企业微信群机器人发送一条测试消息"
-allowed-tools: ["Bash(python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py:*)"]
+description: "向已配置的企业微信、飞书群机器人发送一条测试消息"
+allowed-tools: ["Bash(python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py\":*)"]
 ---
 
 ```!
