@@ -66,6 +66,21 @@
 
 想改默认值，可以设置环境变量 `WECOM_NOTIFY_CHANNEL`，比如 `WECOM_NOTIFY_CHANNEL=feishu claude`。
 
+## 更新插件
+
+Claude Code 不会自动拉取第三方插件市场的新版本。如果 README 里写的命令你那里没有（比如找不到 `/wecom-notify:use`），一般是装的还是旧版本。
+
+**手动更新**：在终端里运行下面两条命令，然后重启 Claude Code：
+
+```bash
+claude plugin marketplace update claude-code-wecom-notify
+claude plugin update wecom-notify@claude-code-wecom-notify
+```
+
+**开启自动更新（推荐）**：在 Claude Code 里运行 `/plugin`，进入 **Marketplaces**，选中 `claude-code-wecom-notify`，打开 **Enable auto-update**。之后每次启动 Claude Code 都会检查新版本。
+
+更新后原来保存的 Webhook 地址会保留，不需要重新配置。
+
 ## 常用命令
 
 | 命令 | 作用 |
