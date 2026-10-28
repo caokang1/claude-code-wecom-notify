@@ -1,0 +1,16 @@
+{
+  "description": "Claude Code 回答完成后推送到企业微信群机器人",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wecom.py\" notify",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
