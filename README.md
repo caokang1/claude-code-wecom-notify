@@ -116,6 +116,10 @@ Webhook 地址和密钥保存在 `~/.claude/wecom-notify.json`，文件权限为
 - `python3`，只用到标准库，不需要安装任何依赖
 - macOS、Linux、WSL。原生 Windows 暂未测试
 
+## 相关项目
+
+- [tmux-nvim-kit](https://github.com/caokang1/tmux-nvim-kit)：一键在 WSL 搭建 IDEA 风格的 Neovim + tmux 环境，左边看代码、右边跑 Claude Code，还能在浏览器里打开
+
 ## License
 
 MIT
